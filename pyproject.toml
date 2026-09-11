@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "workspace-stats"
+version = "0.1.0"
+description = "CLI utility for workspace file statistics"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+workspace-stats = "workspace_stats.cli:main"
